@@ -1,0 +1,20 @@
+option_1 = '1. walk the dog.'
+option_2 = '2. eat lunch.'
+option_3 = '3. launch all the missles.'
+
+title = 'make up a title'
+lines = '*'*50
+
+def show_menu():
+    print(lines)
+    print(title)
+    print(lines)
+    print(option_1)
+    print(option_2)
+    print(option_3)
+    print(lines)
+
+def main():
+    show_menu()
+if __name__ == '__main__':
+    main()
