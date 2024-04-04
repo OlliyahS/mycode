@@ -38,8 +38,8 @@ def plot_graph(filtered_df):
     
     # Plotting for the line graph
     plt.figure(figsize=(10, 6))
-    plt.plot(filtered_df.iloc[:, 0], filtered_df.iloc[:, 1], color='green', label='Opioid')
-    plt.plot(filtered_df.iloc[:, 0], filtered_df.iloc[:, 2], color='blue', label='Heroin')
+    plt.plot(filtered_df.iloc[:, 0], filtered_df.iloc[:, 1], color='purple', label='Opioid')
+    plt.plot(filtered_df.iloc[:, 0], filtered_df.iloc[:, 2], color='orange', label='Heroin')
     plt.plot(filtered_df.iloc[:, 0], filtered_df.iloc[:, 3], color='red', label='Stimulant')
     plt.xlabel('Months')  # x-axis label
     plt.ylabel('Percent in Change')  # y-axis label
